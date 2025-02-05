@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catch the Falling Apple 🍎</title>
+    <title>GameJee - Catch the Falling Apple 🍎</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Catch the Falling Apple 🍎</h1>
+    <h1>GameJee - Catch the Falling Apple 🍎</h1>
     <p>Score: <span id="score">0</span></p>
     <div id="game-container">
         <div id="basket"></div>
         <div id="falling-object"></div>
     </div>
+    <div id="controls">
+        <button id="left-btn">⬅</button>
+        <button id="right-btn">➡</button>
+    </div>
     <button id="restart-btn" onclick="restartGame()">Restart Game</button>
+    
+    <!-- Footer for credits -->
+    <footer>
+        <p>Created by Jeevan at <a href="https://gamejee.com" target="_blank">GameJee</a></p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
