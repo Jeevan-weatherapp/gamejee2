@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    touch-action: manipulation; /* Prevent default touch gestures */
+}
+
+h1 {
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#game-container {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    height: 500px;
+    background-color: #cce7ff;
+    border: 2px solid #000;
+    margin: 20px auto;
+    overflow: hidden;
+    touch-action: none;
+}
+
+#basket {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 80px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+#falling-object {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#restart-btn {
+    display: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
